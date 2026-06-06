@@ -13,7 +13,7 @@ Um relógio digital minimalista desenvolvido com HTML, CSS e JavaScript puro. Co
 
 ## 👀 Preview
 
-![Relógio Digital em Ação](./Animação.gif)
+![Relógio Digital em Ação](src/Animação.gif)
 
 *Relógio exibindo a hora em tempo real com formato HH:MM:SS*
 
