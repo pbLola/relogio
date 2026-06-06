@@ -21,26 +21,7 @@ Um relógio digital minimalista desenvolvido com HTML, CSS e JavaScript puro. Co
 
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilização e responsividade
-- **JavaScript (Vanilla)** - Lógica e atualização em tempo real
-
-## 📦 Como Usar
-
-### 1. Clone ou baixe o repositório
-```bash
-git clone https://github.com/seu-usuario/relogio-digital.git
-cd relogio-digital
-```
-
-### 2. Abra no navegador
-Simplesmente abra o arquivo `index.html` em seu navegador favorito:
-```bash
-# No terminal, você pode usar:
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
-```
-
-Ou faça upload em um servidor web e acesse via navegador.
+- **JavaScript** - Lógica e atualização em tempo real
 
 ## 📁 Estrutura do Projeto
 
@@ -63,15 +44,6 @@ relogio-digital/
 
 - [ ] Botão para alternar entre temas (claro/escuro)
 - [ ] Modo tela cheia
-
-## 🤝 Contribuições
-
-Sugestões e melhorias são bem-vindas! Sinta-se à vontade para:
-1. Fazer um Fork do projeto
-2. Criar uma Branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abrir um Pull Request
 
 ## 📄 Licença
 
