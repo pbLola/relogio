@@ -1,0 +1,44 @@
+:root{
+    --color-dark: black;
+    --color-white: white;
+    --color-purple: #5d15a5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-family: "Orbitron", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 16px;
+}
+.relogio{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.relogio span{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.relogio span:not(:last-child):after{
+    content: ":";
+    margin-bottom: 25px;
+    color: azure;
+}
+h2{
+    position: fixed;
+    bottom: 15px;
+    font-family: "Open Sans", sans-serif;;
+}
+h2 strong{
+color: var(--color-purple);
+}
